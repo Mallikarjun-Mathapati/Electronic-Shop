@@ -1,3 +1,18 @@
+import SonyS from "../ImagesPro/Sony speaker.png";
+import Apple from "../ImagesPro/Imouse.png";
+import RazerH from "../ImagesPro/Razer H.png";
+import BoatI from "../ImagesPro/Boat Imm.png";
+import RazerB from "../ImagesPro/Razer M.png";
+import AcerL from "../ImagesPro/Acer L.png";
+import OnePlusB from "../ImagesPro/OnePlace b.png";
+import BoseB from "../ImagesPro/Bose B.png";
+import Rog from "../ImagesPro/ROG L.png";
+import OnePlus from "../ImagesPro/OnePlusB.png";
+import JblS from "../ImagesPro/jblS.png";
+import AsusM from "../ImagesPro/AsusMouse.png";
+import LogiT from "../ImagesPro/LogitechC.png";
+import Msik from "../ImagesPro/MSIK.png";
+import BoseQ from "../ImagesPro/Bose q.png";
 export const ProductHome = [
   {
     id: "1",
@@ -7,7 +22,7 @@ export const ProductHome = [
     price: "14,999",
     mark_price: "19,999",
     categories: "speaker",
-    img: "./Images/Sony speaker.png",
+    img: SonyS,
   },
   {
     id: "2",
@@ -17,7 +32,7 @@ export const ProductHome = [
     price: "4,999",
     mark_price: "7,499",
     categories: "mouse",
-    img: "./Images/Imouse.png",
+    img: Apple,
   },
   {
     id: "3",
@@ -27,7 +42,7 @@ export const ProductHome = [
     price: "15,999",
     mark_price: "24,999",
     categories: "keyboard",
-    img: "./Images/Razer H.png",
+    img: RazerH,
   },
   {
     id: "4",
@@ -37,7 +52,7 @@ export const ProductHome = [
     price: "3,999",
     mark_price: "9,999",
     categories: "headphones",
-    img: "./Images/Boat Imm.png",
+    img: BoatI,
   },
   {
     id: "5",
@@ -47,7 +62,7 @@ export const ProductHome = [
     price: "13,999",
     mark_price: "27,999",
     categories: "mouse",
-    img: "./Images/Razer M.png",
+    img: RazerB,
   },
   {
     id: "6",
@@ -57,7 +72,7 @@ export const ProductHome = [
     price: "1,21,999",
     mark_price: "1,56,999",
     categories: "laptop",
-    img: "./Images/Acer L.png",
+    img: AcerL,
   },
   {
     id: "7",
@@ -67,7 +82,7 @@ export const ProductHome = [
     price: " 10,999",
     mark_price: "13,999",
     categories: "earbuds",
-    img: "./Images/OnePlace b.png",
+    img: OnePlusB,
   },
   {
     id: "8",
@@ -76,8 +91,8 @@ export const ProductHome = [
       "Bose QuietComfort Earbuds II with Active Noise  Cancellation (ANC) Bluetooth Headset (Black, True Wireless)",
     price: "21,999",
     mark_price: "25,900",
-    categories: "headphones",
-    img: "./Images/Bose B.png",
+    categories: "earbuds",
+    img: BoseB,
   },
   {
     id: "9",
@@ -87,7 +102,7 @@ export const ProductHome = [
     price: "3,64,990",
     mark_price: "4,31,990",
     categories: "laptop",
-    img: "./Images/ROG L.png",
+    img: Rog,
   },
   {
     id: "10",
@@ -97,7 +112,7 @@ export const ProductHome = [
     price: "19,999",
     mark_price: "29,999",
     categories: "headphones",
-    img: "./Images/bose q1.png",
+    img: BoseQ,
   },
   {
     id: "11",
@@ -107,7 +122,7 @@ export const ProductHome = [
     price: "4,598",
     mark_price: "5,999",
     categories: "earbuds",
-    img: "./Images/OnePlusB.png",
+    img: OnePlus,
   },
   {
     id: "12",
@@ -117,7 +132,7 @@ export const ProductHome = [
     price: "29,997",
     mark_price: "45,999",
     categories: "speaker",
-    img: "./Images/jblS.png",
+    img: JblS,
   },
   {
     id: "13",
@@ -127,7 +142,7 @@ export const ProductHome = [
     price: "10,999",
     mark_price: "13,999",
     categories: "mouse",
-    img: "./Images/AsusMouse.png",
+    img: AsusM,
   },
   {
     id: "14",
@@ -137,7 +152,7 @@ export const ProductHome = [
     price: "18,994",
     mark_price: "23,900",
     categories: "keyboard",
-    img: "./Images/LogitechC.png",
+    img: LogiT,
   },
   {
     id: "15",
@@ -147,7 +162,7 @@ export const ProductHome = [
     price: "4,50,000",
     mark_price: "5,26,990",
     categories: "laptop",
-    img: "./Images/MSIK.PNG",
+    img: Msik,
   },
 ];
 export default ProductHome;

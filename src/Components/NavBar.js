@@ -14,7 +14,9 @@ const NavBar = () => {
         <div className="navbar-main">
           <div className="navbar-content">
             <div className="navbar-logo">
-              <img src={Logo} alt="" />
+              <Link to="/">
+                <img src={Logo} alt="" />
+              </Link>
             </div>
             <div className="navbar-links">
               <Link to="/"> Home </Link>

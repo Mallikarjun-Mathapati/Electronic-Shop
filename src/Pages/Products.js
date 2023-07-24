@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 // import SonyS from "../Images/Products/Sony speaker.png";
 import Star from "../Images/Products/starts.svg";
 import ProductData from "../Product_data/Product_home";
 
 const Products = () => {
+  const [data, setData] = useState(ProductData);
+  const FilterClick = (e) => {
+    const filter = ProductData.filter((id) => {
+      return id.categories === e;
+    });
+    setData(filter);
+  };
+
   return (
     <>
       <div className="padding" style={{ paddingTop: "5rem" }}>
@@ -12,9 +20,26 @@ const Products = () => {
             <h1>PRODUCTS</h1>
           </div>
           <div className="container">
-            <div className="product-filter"></div>
+            <div className="product-filter">
+              <div className="filter-heading">
+                <h3>Filter</h3>
+              </div>
+              <div className="product-filter-button">
+                <button onClick={() => setData(ProductData)}>All</button>
+                <button onClick={() => FilterClick("mouse")}>Mouse</button>
+                <button onClick={() => FilterClick("laptop")}>Laptop</button>
+                <button onClick={() => FilterClick("keyboard")}>
+                  Keyboard
+                </button>
+                <button onClick={() => FilterClick("speaker")}>Speaker</button>
+                <button onClick={() => FilterClick("headphones")}>
+                  Headphone
+                </button>
+                <button onClick={() => FilterClick("earbuds")}>Earbuds</button>
+              </div>
+            </div>
             <div className="product-grid">
-              {ProductData.map((eml) => {
+              {data.map((eml) => {
                 const { brand, description, price, mark_price, img } = eml;
                 return (
                   <div className="product-grid-1">
