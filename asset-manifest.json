@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Electronic-Shop/static/css/main.f7009581.css",
+    "main.js": "/Electronic-Shop/static/js/main.68765e27.js",
+    "static/js/787.9539e0b1.chunk.js": "/Electronic-Shop/static/js/787.9539e0b1.chunk.js",
+    "static/media/HomePage About.png": "/Electronic-Shop/static/media/HomePage About.b8384b01c92c41f6d4b3.png",
+    "static/media/Banner Bg.jpg": "/Electronic-Shop/static/media/Banner Bg.303b5423f502e4f0f806.jpg",
+    "static/media/contactus.png": "/Electronic-Shop/static/media/contactus.c873b157f8ab6e144f33.png",
+    "static/media/main bg.png": "/Electronic-Shop/static/media/main bg.d39269ba081d58b1a361.png",
+    "static/media/camera.png": "/Electronic-Shop/static/media/camera.f8e80e4477fa6ae6ef22.png",
+    "static/media/Razer.png": "/Electronic-Shop/static/media/Razer.a9022604d3cb2cff7c4b.png",
+    "static/media/Bose.png": "/Electronic-Shop/static/media/Bose.b9e086742a5f3398da07.png",
+    "static/media/Acer.png": "/Electronic-Shop/static/media/Acer.677c8d857131ab2cb190.png",
+    "static/media/iphone.png": "/Electronic-Shop/static/media/iphone.0f235723d58eab9bf4b9.png",
+    "static/media/sony.png": "/Electronic-Shop/static/media/sony.bd37bda7c3e02bb849c0.png",
+    "static/media/OnePlus-Logo 1.png": "/Electronic-Shop/static/media/OnePlus-Logo 1.eb5823f68f32ac8fc33b.png",
+    "static/media/boat 1.png": "/Electronic-Shop/static/media/boat 1.98ca52d3db2a10ac6547.png",
+    "static/media/Main logo for nav.png": "/Electronic-Shop/static/media/Main logo for nav.e2d418b38bc873d49392.png",
+    "static/media/sony 1.png": "/Electronic-Shop/static/media/sony 1.61429f935f05eaea8a71.png",
+    "static/media/starts.svg": "/Electronic-Shop/static/media/starts.8b61062d2f98576b0819743b459f384f.svg",
+    "index.html": "/Electronic-Shop/index.html",
+    "main.f7009581.css.map": "/Electronic-Shop/static/css/main.f7009581.css.map",
+    "main.68765e27.js.map": "/Electronic-Shop/static/js/main.68765e27.js.map",
+    "787.9539e0b1.chunk.js.map": "/Electronic-Shop/static/js/787.9539e0b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7009581.css",
+    "static/js/main.68765e27.js"
+  ]
+}
