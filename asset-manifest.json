@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Electronic-Shop/static/css/main.e3a40358.css",
-    "main.js": "/Electronic-Shop/static/js/main.f4475eac.js",
+    "main.css": "/Electronic-Shop/static/css/main.874ad1ad.css",
+    "main.js": "/Electronic-Shop/static/js/main.18006b56.js",
     "static/js/787.9539e0b1.chunk.js": "/Electronic-Shop/static/js/787.9539e0b1.chunk.js",
     "static/media/HomePage About.png": "/Electronic-Shop/static/media/HomePage About.b8384b01c92c41f6d4b3.png",
     "static/media/Banner Bg.jpg": "/Electronic-Shop/static/media/Banner Bg.303b5423f502e4f0f806.jpg",
@@ -31,16 +31,17 @@
     "static/media/sony.png": "/Electronic-Shop/static/media/sony.bd37bda7c3e02bb849c0.png",
     "static/media/OnePlus-Logo 1.png": "/Electronic-Shop/static/media/OnePlus-Logo 1.eb5823f68f32ac8fc33b.png",
     "static/media/boat 1.png": "/Electronic-Shop/static/media/boat 1.98ca52d3db2a10ac6547.png",
+    "static/media/cart.png": "/Electronic-Shop/static/media/cart.6528efe89e0e8e2a6c5f.png",
     "static/media/Main logo for nav.png": "/Electronic-Shop/static/media/Main logo for nav.e2d418b38bc873d49392.png",
     "static/media/sony 1.png": "/Electronic-Shop/static/media/sony 1.61429f935f05eaea8a71.png",
     "static/media/starts.svg": "/Electronic-Shop/static/media/starts.8b61062d2f98576b0819743b459f384f.svg",
     "index.html": "/Electronic-Shop/index.html",
-    "main.e3a40358.css.map": "/Electronic-Shop/static/css/main.e3a40358.css.map",
-    "main.f4475eac.js.map": "/Electronic-Shop/static/js/main.f4475eac.js.map",
+    "main.874ad1ad.css.map": "/Electronic-Shop/static/css/main.874ad1ad.css.map",
+    "main.18006b56.js.map": "/Electronic-Shop/static/js/main.18006b56.js.map",
     "787.9539e0b1.chunk.js.map": "/Electronic-Shop/static/js/787.9539e0b1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3a40358.css",
-    "static/js/main.f4475eac.js"
+    "static/css/main.874ad1ad.css",
+    "static/js/main.18006b56.js"
   ]
 }
