@@ -1,13 +1,16 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import Logo from "../Images/Logos/Main logo for nav.png";
+import Cart from "./Cart/Cart";
+import { ContextState } from "../Context/Context";
 
 const NavBar = () => {
   const [menu, setMenu] = useState(false);
-  const [cartitem, setCartitem] = useState(0);
-  setInterval(() => {
-    setCartitem(cartitem + 1);
-  }, 100000);
+  const { cartI } = useContext(ContextState);
+  const [cart, setCart] = useState(false);
+  // setInterval(() => {
+  //   setCartitem(cartitem + 1);
+  // }, 100000);
   return (
     <>
       <div className="navbar">
@@ -35,9 +38,12 @@ const NavBar = () => {
               </div>
               <div className="navbar-cart-icon">
                 <div className="navbar-cart-shop">
-                  <i className="fa-solid fa-cart-shopping"></i>
+                  <i
+                    className="fa-solid fa-cart-shopping"
+                    onClick={() => setCart(true)}
+                  ></i>
                   <div className="nav-bar-cart-number">
-                    <p>{cartitem}</p>
+                    <p>{cartI.length}</p>
                   </div>
                 </div>
                 <div className="navbar-profile-icon">
@@ -72,6 +78,7 @@ const NavBar = () => {
           </div>
         </div>
       </div>
+
       {/* responsive menu */}
 
       <div className={`menu-navbar ${menu ? "hide-menu" : ""} `}>
@@ -120,6 +127,7 @@ const NavBar = () => {
           </div>
         </div>
       </div>
+      {cart && <Cart setCart={setCart} />}
     </>
   );
 };

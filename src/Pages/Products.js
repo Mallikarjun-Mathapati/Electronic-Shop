@@ -1,15 +1,20 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 // import SonyS from "../Images/Products/Sony speaker.png";
 import Star from "../Images/Products/starts.svg";
 import ProductData from "../Product_data/Product_home";
+import { ContextState } from "../Context/Context";
 
 const Products = () => {
   const [data, setData] = useState(ProductData);
+  const { cartI, setCartI } = useContext(ContextState);
   const FilterClick = (e) => {
     const filter = ProductData.filter((id) => {
       return id.categories === e;
     });
     setData(filter);
+  };
+  const AddTocart = (e) => {
+    setCartI([...cartI, { ...e, quantity: 1 }]);
   };
 
   return (
@@ -39,10 +44,10 @@ const Products = () => {
               </div>
             </div>
             <div className="product-grid">
-              {data.map((eml) => {
+              {data.map((eml, id) => {
                 const { brand, description, price, mark_price, img } = eml;
                 return (
-                  <div className="product-grid-1">
+                  <div className="product-grid-1" key={id}>
                     <div className="main-product-body">
                       <div className="wishlist-product">
                         <i className="fa-regular fa-heart fa-lg"></i>
@@ -59,7 +64,10 @@ const Products = () => {
                             {" "}
                             ₹ {price} &nbsp; &nbsp; <span>₹ {mark_price}</span>
                           </h5>
-                          <div className="product-cart-logo">
+                          <div
+                            className="product-cart-logo"
+                            onClick={() => AddTocart(eml)}
+                          >
                             <i className="fa-solid fa-cart-shopping"></i>
                           </div>
                         </div>
