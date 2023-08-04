@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Electronic-Shop/static/css/main.874ad1ad.css",
-    "main.js": "/Electronic-Shop/static/js/main.18006b56.js",
+    "main.js": "/Electronic-Shop/static/js/main.3fb2bf97.js",
     "static/js/787.9539e0b1.chunk.js": "/Electronic-Shop/static/js/787.9539e0b1.chunk.js",
     "static/media/HomePage About.png": "/Electronic-Shop/static/media/HomePage About.b8384b01c92c41f6d4b3.png",
     "static/media/Banner Bg.jpg": "/Electronic-Shop/static/media/Banner Bg.303b5423f502e4f0f806.jpg",
@@ -37,11 +37,11 @@
     "static/media/starts.svg": "/Electronic-Shop/static/media/starts.8b61062d2f98576b0819743b459f384f.svg",
     "index.html": "/Electronic-Shop/index.html",
     "main.874ad1ad.css.map": "/Electronic-Shop/static/css/main.874ad1ad.css.map",
-    "main.18006b56.js.map": "/Electronic-Shop/static/js/main.18006b56.js.map",
+    "main.3fb2bf97.js.map": "/Electronic-Shop/static/js/main.3fb2bf97.js.map",
     "787.9539e0b1.chunk.js.map": "/Electronic-Shop/static/js/787.9539e0b1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.874ad1ad.css",
-    "static/js/main.18006b56.js"
+    "static/js/main.3fb2bf97.js"
   ]
 }
