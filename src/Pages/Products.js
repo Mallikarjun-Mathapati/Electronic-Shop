@@ -1,11 +1,11 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 // import SonyS from "../Images/Products/Sony speaker.png";
 import Star from "../Images/Products/starts.svg";
 import ProductData from "../Product_data/Product_home";
 import { ContextState } from "../Context/Context";
 
 const Products = () => {
-  const [data, setData] = useState(ProductData);
+  const { data, setData } = useContext(ContextState);
   const { cartI, setCartI } = useContext(ContextState);
   const FilterClick = (e) => {
     const filter = ProductData.filter((id) => {

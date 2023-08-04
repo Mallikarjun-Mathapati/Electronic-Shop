@@ -66,8 +66,8 @@ const Cart = ({ setCart }) => {
               const { brand, price, img, quantity } = current;
               return (
                 <>
-                  <div className="cart-item">
-                    <div className="cart-item-flex" key={id}>
+                  <div className="cart-item" key={id}>
+                    <div className="cart-item-flex">
                       <div className="cart-item-img">
                         <span>
                           <img src={img} alt="" />
