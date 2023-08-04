@@ -10,6 +10,7 @@ import Blog from "./Pages/Blog";
 import Products from "./Pages/Products";
 import ProductData from "./Product_data/Product_home";
 import { ContextState } from "./Context/Context";
+import Categories1 from "./Pages/Categories1";
 
 function App() {
   const [cartI, setCartI] = useState([]);
@@ -24,6 +25,7 @@ function App() {
           <Route exact path="/Contact" Component={Contact}></Route>
           <Route exact path="/Blog" Component={Blog}></Route>
           <Route exact path="/Products" Component={Products}></Route>
+          <Route path="/Categories1" Component={Categories1}></Route>
           <Route path="*" Component={Home}></Route>
         </Routes>
         <Footer></Footer>

@@ -53,7 +53,7 @@ const Products = () => {
                         <i className="fa-regular fa-heart fa-lg"></i>
                       </div>
                       <div className="product-img1">
-                        <img src={img} alt="Sony" />
+                        <img src={img} alt={brand} />
                       </div>
                       <div className="product-content">
                         <h1>{brand}</h1>
@@ -68,7 +68,7 @@ const Products = () => {
                             className="product-cart-logo"
                             onClick={() => AddTocart(eml)}
                           >
-                            <i className="fa-solid fa-cart-shopping"></i>
+                            <i className="fa-solid fa-cart-shopping hover"></i>
                           </div>
                         </div>
                       </div>
